@@ -1,0 +1,33 @@
+.cRectangle {
+  height: 20rem;
+  color: var(--bs-danger);
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.infoRectangle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 15rem;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+.cIcon {
+  scale: 120%;
+  fill: var(--bs-danger);
+}
+
+.form-control {
+  font-weight: bold;
+  overflow: auto;
+}
+
+.msgConfirm {
+  font-weight: bold;
+  font-size: 2rem;
+}

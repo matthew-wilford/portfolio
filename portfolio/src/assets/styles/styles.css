@@ -1,0 +1,21 @@
+/* Reset default margin and padding for all elements */
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+.background {
+  min-height: 100vh;
+}
+
+/* Placeholder image */
+::placeholder {
+  font-weight: bold;
+}
+
+.pageTitle {
+  font-size: 4.5rem;
+}
