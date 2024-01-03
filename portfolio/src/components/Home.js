@@ -52,7 +52,7 @@ export default function Home() {
                 <GitHub className="hGitHub" alt="GitHub Icon" />
               </a>
               <a
-                href="../../resume.pdf"
+                href="https://matthew-wilford.github.io/Website-Portfolio/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
