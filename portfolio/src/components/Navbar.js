@@ -4,7 +4,7 @@ import "../assets/styles/navbar.css";
 export default function Navbar() {
   return (
     <nav className="navbar bg-secondary shadow py-4 navbar-expand-sm">
-      <Link to="/Website-Portfolio/" className="navbar-brand ps-4">
+      <Link to="/" className="navbar-brand ps-4">
         Matthew Wilford
       </Link>
       <button
