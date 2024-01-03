@@ -38,6 +38,12 @@
 }
 
 .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-techStacks {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }

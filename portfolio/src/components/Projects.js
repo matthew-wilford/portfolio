@@ -24,11 +24,11 @@ export default function Projects() {
             </div>
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title text">Web Portfolio</h1>
-                <h1 className="card-title text">
+                <h1 className="card-title">Web Portfolio</h1>
+                <h1 className="card-techStacks">
                   JavaScript, NodeJS, ReactJS, CSS, Bootstrap
                 </h1>
-                <p className="card-text text text-lg-start">
+                <p className="card-text text-lg-start">
                   This project I designed a web portfolio. The user can leverage
                   several features including sending an email to my inbox.
                 </p>
@@ -61,11 +61,11 @@ export default function Projects() {
             </div>
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title text">Project Title</h1>
-                <h1 className="card-title text">
+                <h1 className="card-title">Project Title</h1>
+                <h1 className="card-techStacks">
                   Tech Stacks
                 </h1>
-                <p className="card-text text text-lg-start">
+                <p className="card-text text-lg-start">
                   Project Summary
                 </p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
@@ -87,11 +87,11 @@ export default function Projects() {
             </div>
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title text">Project Title</h1>
-                <h1 className="card-title text">
+                <h1 className="card-title">Project Title</h1>
+                <h1 className="card-techStacks">
                   Tech Stacks
                 </h1>
-                <p className="card-text text text-lg-start">
+                <p className="card-text text-lg-start">
                   Project summary
                 </p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
@@ -111,11 +111,11 @@ export default function Projects() {
             </div>
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title text">Project Title</h1>
-                <h1 className="card-title text">
+                <h1 className="card-title">Project Title</h1>
+                <h1 className="card-techStacks">
                   Tech Stacks
                 </h1>
-                <p className="card-text text text-lg-start">
+                <p className="card-text text-lg-start">
                   Project summary
                 </p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
