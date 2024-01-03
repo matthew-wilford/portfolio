@@ -31,7 +31,7 @@ export default function Home() {
               Let's get connected!
             </h1>
             <div className="d-flex align-items-center">
-              <a href="https://matthew-wilford.github.io/Website-Portfolio/contact" className="me-4">
+              <a href="/Website-Portfolio/contact" className="me-4">
                 <button className="btn btn-danger rounded-pill">
                   Contact Me
                 </button>
