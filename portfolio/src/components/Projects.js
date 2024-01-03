@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../assets/styles/projects.css";
 import placeholder from "../assets/images/placeholder.jpg";
 import github from "../assets/icons/github.svg";
@@ -18,7 +19,7 @@ export default function Projects() {
               <img
                 className="card-img rounded-4"
                 src={placeholder}
-                alt="Website owner 2"
+                alt="Project"
               />
             </div>
             <div className="card-overlay rounded-4">
@@ -31,8 +32,20 @@ export default function Projects() {
                   This project I designed a web portfolio. The user can leverage
                   several features including sending an email to my inbox.
                 </p>
-                <img className="GitHub" src={github} alt="GitHub Icon" />
-                <img className="Link" src={linkIcon} alt="Link Icon" />
+                <a
+                  href="https://github.com/matthew-wilford/Website-Portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="GitHub" src={github} alt="GitHub Icon" />
+                </a>
+                <Link
+                  to="/Website-Portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="Link" src={linkIcon} alt="Link Icon" />
+                </Link>
               </div>
             </div>
           </div>
@@ -43,18 +56,17 @@ export default function Projects() {
               <img
                 className="card-img rounded-4"
                 src={placeholder}
-                alt="Website owner 2"
+                alt="Project"
               />
             </div>
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title text">Web Portfolio</h1>
+                <h1 className="card-title text">Project Title</h1>
                 <h1 className="card-title text">
-                  JavaScript, NodeJS, ReactJS, CSS, Bootstrap
+                  Tech Stacks
                 </h1>
                 <p className="card-text text text-lg-start">
-                  This project I designed a web portfolio. The user can leverage
-                  several features including sending an email to my inbox.
+                  Project Summary
                 </p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
                 <img className="Link" src={linkIcon} alt="Link Icon" />
@@ -70,18 +82,17 @@ export default function Projects() {
               <img
                 className="card-img rounded-4"
                 src={placeholder}
-                alt="Website owner 2"
+                alt="Project"
               />
             </div>
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title text">Web Portfolio</h1>
+                <h1 className="card-title text">Project Title</h1>
                 <h1 className="card-title text">
-                  JavaScript, NodeJS, ReactJS, CSS, Bootstrap
+                  Tech Stacks
                 </h1>
                 <p className="card-text text text-lg-start">
-                  This project I designed a web portfolio. The user can leverage
-                  several features including sending an email to my inbox.
+                  Project summary
                 </p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
                 <img className="Link" src={linkIcon} alt="Link Icon" />
@@ -95,18 +106,17 @@ export default function Projects() {
               <img
                 className="card-img rounded-4"
                 src={placeholder}
-                alt="Website owner 2"
+                alt="Project"
               />
             </div>
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title text">Web Portfolio</h1>
+                <h1 className="card-title text">Project Title</h1>
                 <h1 className="card-title text">
-                  JavaScript, NodeJS, ReactJS, CSS, Bootstrap
+                  Tech Stacks
                 </h1>
                 <p className="card-text text text-lg-start">
-                  This project I designed a web portfolio. The user can leverage
-                  several features including sending an email to my inbox.
+                  Project summary
                 </p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
                 <img className="Link" src={linkIcon} alt="Link Icon" />
