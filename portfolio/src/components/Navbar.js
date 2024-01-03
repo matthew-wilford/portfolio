@@ -20,9 +20,9 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse px-4" id="navbarNav">
         <ul className="navbar-nav ms-auto pe-4">
-          <CustomLink to="/about">About</CustomLink>
-          <CustomLink to="/projects">Projects</CustomLink>
-          <CustomLink to="/contact">Contact</CustomLink>
+          <CustomLink to="/Website-Portfolio/about">About</CustomLink>
+          <CustomLink to="/Website-Portfolio/projects">Projects</CustomLink>
+          <CustomLink to="/Website-Portfolio/contact">Contact</CustomLink>
         </ul>
       </div>
     </nav>
