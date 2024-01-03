@@ -11,7 +11,7 @@ export default function About() {
             <div className="combined-text">
               <h1 className="text-dark">My name is</h1>
               <h1> </h1>
-              <h1 className="text-secondary underline">Matthew Wilford</h1>
+              <h1 className="text-secondary">Matthew Wilford</h1>
               <h1>!</h1>
             </div>
             <h1 className="text-dark pt-3">
