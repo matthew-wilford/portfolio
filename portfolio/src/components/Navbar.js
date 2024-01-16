@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="navbar bg-secondary shadow py-4 navbar-expand-sm">
       <Link
         to="/Website-Portfolio/"
-        className="navbar-brand ps-4"
+        className="navbar-brand custom-navbar-brand ps-4"
         onClick={handleHomepageClick}
       >
         Matthew Wilford
