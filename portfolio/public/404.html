@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Not Found</title>
-    <!-- Add any styles or scripts needed for your 404 page -->
 </head>
 
 <body>
     <script>
-        // Redirect to the homepage when encountering a 404 error
-        window.location.href = "/portfolio/";
+        // Retrieve the previous page URL from local storage
+        const previousLocation = localStorage.getItem('previousLocation');
+
+        // Redirect the user back to the previous page if available, otherwise redirect to the homepage
+        if (previousLocation) {
+            window.location.href = previousLocation;
+        } else {
+            window.location.href = "/portfolio/";
+        }
     </script>
 </body>
 
