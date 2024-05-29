@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
 import "../assets/styles/projects.css";
 import placeholder from "../assets/images/placeholder.jpg";
-import github from "../assets/icons/github.svg";
-import linkIcon from "../assets/icons/linkIcon.svg";
+import portfolio from "../assets/images/portfolio.jpg";
 
 export default function Projects() {
   return (
@@ -12,104 +10,56 @@ export default function Projects() {
           <h1 className="pageTitle">My Projects</h1>
         </div>
       </div>
-      <div className="row mt-3 justify-content-center align-items-center">
-        <div className="card col-lg-4 mb-3 mb-lg-0 border-0 bg-primary">
-          <div className="text-center text-lg-start position-relative">
-            <div className="card-img-container">
-              <img
-                className="card-img rounded-4"
-                src={placeholder}
-                alt="Project"
-              />
-            </div>
-            <div className="card-overlay rounded-4">
-              <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title">Web Portfolio</h1>
-                <h1 className="card-techStacks">
-                  JavaScript, NodeJS, ReactJS, CSS, Bootstrap
-                </h1>
-                <p className="card-text text-lg-start">
-                  This project I designed a web portfolio. The user can leverage
-                  several features including sending an email to my inbox.
-                </p>
-                <a
-                  href="https://github.com/matthew-wilford/Website-Portfolio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img className="GitHub" src={github} alt="GitHub Icon" />
-                </a>
-                <Link
-                  to="/Website-Portfolio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img className="Link" src={linkIcon} alt="Link Icon" />
-                </Link>
-              </div>
-            </div>
+      <div className="row justify-content-center mt-3">
+        <div className="card mx-3 mb-3">
+          <img src={portfolio} className="card-img-top" alt="Portfolio" />
+          <div className="card-body">
+            <h5 className="card-title">Portfolio</h5>
+            <p className="card-text">My website portfolio.</p>
+            <a
+              href="https://github.com/matthew-wilford/Website-Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-danger"
+            >
+              GitHub
+            </a>
           </div>
         </div>
-        <div className="card col-lg-4 border-0 bg-primary">
-          <div className="text-center text-lg-start position-relative">
-            <div className="card-img-container">
-              <img
-                className="card-img rounded-4"
-                src={placeholder}
-                alt="Project"
-              />
-            </div>
-            <div className="card-overlay rounded-4">
-              <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title">Project Title</h1>
-                <h1 className="card-techStacks">Tech Stacks</h1>
-                <p className="card-text text-lg-start">Project Summary</p>
-                <img className="GitHub" src={github} alt="GitHub Icon" />
-                <img className="Link" src={linkIcon} alt="Link Icon" />
-              </div>
-            </div>
+        <div className="card mx-3 mb-3">
+          <img src={placeholder} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-danger"
+            >
+              GitHub
+            </a>
           </div>
         </div>
-      </div>
-      <div className="row mt-3 justify-content-center align-items-center">
-        <div className="card col-lg-4 mb-3 mb-lg-0 border-0 bg-primary">
-          <div className="text-center text-lg-start position-relative">
-            <div className="card-img-container">
-              <img
-                className="card-img rounded-4"
-                src={placeholder}
-                alt="Project"
-              />
-            </div>
-            <div className="card-overlay rounded-4">
-              <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title">Project Title</h1>
-                <h1 className="card-techStacks">Tech Stacks</h1>
-                <p className="card-text text-lg-start">Project summary</p>
-                <img className="GitHub" src={github} alt="GitHub Icon" />
-                <img className="Link" src={linkIcon} alt="Link Icon" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="card col-lg-4 mb-5 mb-lg-0 border-0 bg-primary">
-          <div className="text-center text-lg-start position-relative">
-            <div className="card-img-container">
-              <img
-                className="card-img rounded-4"
-                src={placeholder}
-                alt="Project"
-              />
-            </div>
-            <div className="card-overlay rounded-4">
-              <div className="card-overlay-content text-lg-start">
-                <h1 className="card-title">Project Title</h1>
-                <h1 className="card-techStacks">Tech Stacks</h1>
-                <p className="card-text text-lg-start">Project summary</p>
-                <img className="GitHub" src={github} alt="GitHub Icon" />
-                <img className="Link" src={linkIcon} alt="Link Icon" />
-              </div>
-            </div>
+        <div className="card mx-3 mb-3">
+          <img src={placeholder} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-danger"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </div>
