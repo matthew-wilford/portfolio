@@ -10,15 +10,8 @@
 
 <body>
     <script>
-        // Retrieve the previous page URL from local storage
-        const previousLocation = localStorage.getItem('previousLocation');
-
-        // Redirect the user back to the previous page if available, otherwise redirect to the homepage
-        if (previousLocation) {
-            window.location.href = previousLocation;
-        } else {
-            window.location.href = "/portfolio/";
-        }
+        // Redirect to the homepage when encountering a 404 error
+        window.location.href = "/portfolio/";
     </script>
 </body>
 
