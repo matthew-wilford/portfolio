@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="navbar bg-secondary shadow py-4 navbar-expand-sm">
       <Link
-        to="/Website-Portfolio/"
+        to="/portfolio/"
         className="navbar-brand custom-navbar-brand ps-4"
         onClick={handleHomepageClick}
       >
@@ -38,19 +38,19 @@ export default function Navbar() {
       >
         <ul className="navbar-nav ms-auto pe-4">
           <CustomLink
-            to="/Website-Portfolio/about"
+            to="/portfolio/about"
             handleNavCollapse={handleNavCollapse}
           >
             About
           </CustomLink>
           <CustomLink
-            to="/Website-Portfolio/projects"
+            to="/portfolio/projects"
             handleNavCollapse={handleNavCollapse}
           >
             Projects
           </CustomLink>
           <CustomLink
-            to="/Website-Portfolio/contact"
+            to="/portfolio/contact"
             handleNavCollapse={handleNavCollapse}
           >
             Contact

@@ -32,7 +32,7 @@ export default function Home() {
               Let's get connected!
             </h1>
             <div className="d-flex align-items-center">
-              <Link to="/Website-Portfolio/contact" className="me-4">
+              <Link to="/portfolio/contact" className="me-4">
                 <button className="btn btn-danger rounded-pill">
                   Contact Me
                 </button>
@@ -52,7 +52,7 @@ export default function Home() {
                 <GitHub className="hGitHub" alt="GitHub Icon" />
               </a>
               <a
-                href="https://matthew-wilford.github.io/Website-Portfolio/resume.pdf"
+                href="https://matthew-wilford.github.io/portfolio/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

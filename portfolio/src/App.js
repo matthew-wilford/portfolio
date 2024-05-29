@@ -14,10 +14,10 @@ function App() {
         <Navbar />
         <div>
           <Routes>
-            <Route path="/Website-Portfolio/" element={<Home />} />
-            <Route path="/Website-Portfolio/about" element={<About />} />
-            <Route path="/Website-Portfolio/projects" element={<Projects />} />
-            <Route path="/Website-Portfolio/contact" element={<Contact />} />
+            <Route path="/portfolio/" element={<Home />} />
+            <Route path="/portfolio/about" element={<About />} />
+            <Route path="/portfolio/projects" element={<Projects />} />
+            <Route path="/portfolio/contact" element={<Contact />} />
           </Routes>
         </div>
       </div>

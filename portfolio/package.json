@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://matthew-wilford.github.io/Website-Portfolio/",
+  "homepage": "https://matthew-wilford.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.5.1",
