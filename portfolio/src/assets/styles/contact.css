@@ -1,25 +1,22 @@
-.cRectangle {
-  height: 20rem;
-  color: var(--bs-danger);
-  background-color: white;
-  border-radius: 1rem;
-}
-
 .infoRectangle {
   font-size: 1.2rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 20rem;
   height: 15rem;
   border-radius: 1rem;
   overflow: auto;
 }
 
-.cIcon {
-  scale: 120%;
-  fill: var(--bs-danger);
+.hShot {
+  scale: 80%;
+  border-radius: 1.5rem;
+}
+
+.cPageTitle {
+  font-size: 3.5rem;
 }
 
 .form-control {

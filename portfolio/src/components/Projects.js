@@ -6,8 +6,8 @@ import linkIcon from "../assets/icons/linkIcon.svg";
 
 export default function Projects() {
   return (
-    <div className="container">
-      <div className="row mt-5 justify-content-center align-items-center">
+    <div className="container mt-5">
+      <div className="row justify-content-center align-items-center">
         <div className="text-center text-secondary">
           <h1 className="pageTitle">My Projects</h1>
         </div>
@@ -62,12 +62,8 @@ export default function Projects() {
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
                 <h1 className="card-title">Project Title</h1>
-                <h1 className="card-techStacks">
-                  Tech Stacks
-                </h1>
-                <p className="card-text text-lg-start">
-                  Project Summary
-                </p>
+                <h1 className="card-techStacks">Tech Stacks</h1>
+                <p className="card-text text-lg-start">Project Summary</p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
                 <img className="Link" src={linkIcon} alt="Link Icon" />
               </div>
@@ -88,12 +84,8 @@ export default function Projects() {
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
                 <h1 className="card-title">Project Title</h1>
-                <h1 className="card-techStacks">
-                  Tech Stacks
-                </h1>
-                <p className="card-text text-lg-start">
-                  Project summary
-                </p>
+                <h1 className="card-techStacks">Tech Stacks</h1>
+                <p className="card-text text-lg-start">Project summary</p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
                 <img className="Link" src={linkIcon} alt="Link Icon" />
               </div>
@@ -112,12 +104,8 @@ export default function Projects() {
             <div className="card-overlay rounded-4">
               <div className="card-overlay-content text-lg-start">
                 <h1 className="card-title">Project Title</h1>
-                <h1 className="card-techStacks">
-                  Tech Stacks
-                </h1>
-                <p className="card-text text-lg-start">
-                  Project summary
-                </p>
+                <h1 className="card-techStacks">Tech Stacks</h1>
+                <p className="card-text text-lg-start">Project summary</p>
                 <img className="GitHub" src={github} alt="GitHub Icon" />
                 <img className="Link" src={linkIcon} alt="Link Icon" />
               </div>

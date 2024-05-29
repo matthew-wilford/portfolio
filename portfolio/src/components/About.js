@@ -7,7 +7,9 @@ export default function About() {
       <div className="row align-items-center">
         <div className="col-lg-6">
           <div className="text-center text-lg-start">
-            <h1 className="text-secondary display-1 pageTitle pb-3">About Me</h1>
+            <h1 className="text-secondary display-1 pageTitle pb-3">
+              About Me
+            </h1>
             <div className="combined-text">
               <h1 className="text-dark">My name is</h1>
               <h1> </h1>
@@ -23,12 +25,12 @@ export default function About() {
             </h1>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 mb-3">
           <div className="text-center text-lg-start">
             <img
               className="img-fluid shadow aImg"
               src={aImg}
-              alt="Me inside the National Center for Civil and Human Rights in Atlanta, GA"
+              alt="Me leaning against a wall"
             />
           </div>
         </div>

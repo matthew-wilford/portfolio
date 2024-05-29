@@ -4,10 +4,7 @@ import "../assets/styles/contact.css";
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("mnqeabqe");
   if (state.succeeded) {
-    return (
-      <div className="msgConfirm">Message sent!</div>
-    );
-    
+    return <div className="msgConfirm">Message sent!</div>;
   }
   return (
     <form onSubmit={handleSubmit}>
@@ -17,10 +14,10 @@ export default function ContactForm() {
             type="name"
             name="name"
             class="form-control bg-success"
-            placeholder="Name"
+            placeholder="Name*"
             required
           />
-          <ValidationError prefix="Name" field="name" errors={state.errors}/>
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
       </div>
       <div class="row justify-content-center mb-2">
@@ -29,7 +26,7 @@ export default function ContactForm() {
             type="email"
             name="email"
             class="form-control bg-success"
-            placeholder="Email"
+            placeholder="Email*"
             required
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -42,7 +39,7 @@ export default function ContactForm() {
             type="subject"
             name="subject"
             class="form-control bg-success"
-            placeholder="Subject"
+            placeholder="Subject*"
             required
           />
           <ValidationError
@@ -58,7 +55,7 @@ export default function ContactForm() {
             type="message"
             name="message"
             class="form-control bg-success"
-            placeholder="Message"
+            placeholder="Message*"
             required
           />
           <ValidationError

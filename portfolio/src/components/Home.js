@@ -14,7 +14,7 @@ export default function Home() {
             <img
               className="img-fluid rounded-circle shadow hImg"
               src={myImg}
-              alt="Headshot"
+              alt="Casual headshot"
             />
           </div>
         </div>
