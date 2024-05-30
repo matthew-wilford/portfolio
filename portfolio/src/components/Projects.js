@@ -1,7 +1,7 @@
 import "../assets/styles/projects.css";
-import placeholder from "../assets/images/placeholder.jpg";
 import portfolio from "../assets/images/portfolio.jpg";
-import { ReactComponent as GitHub } from "../assets/icons/github.svg";
+import CLI from "../assets/images/CLI.png";
+import placeholder from "../assets/images/placeholder.jpg";
 
 export default function Projects() {
   return (
@@ -28,15 +28,14 @@ export default function Projects() {
           </div>
         </div>
         <div className="card mx-3 mb-3">
-          <img src={placeholder} className="card-img-top" alt="..." />
+          <img src={CLI} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Endpoint and RESTful API Project</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              This is a project taken from my Modern Web Applications class.
             </p>
             <a
-              href="#"
+              href="https://github.com/matthew-wilford/endpoint-RESTfulAPI-practice"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-danger"
@@ -48,11 +47,8 @@ export default function Projects() {
         <div className="card mx-3 mb-3">
           <img src={placeholder} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h5 className="card-title">Project Title</h5>
+            <p className="card-text">Undergoing maintenance.</p>
             <a
               href="#"
               target="_blank"
