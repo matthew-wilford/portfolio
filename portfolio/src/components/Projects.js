@@ -1,6 +1,7 @@
 import "../assets/styles/projects.css";
 import placeholder from "../assets/images/placeholder.jpg";
 import portfolio from "../assets/images/portfolio.jpg";
+import { ReactComponent as GitHub } from "../assets/icons/github.svg";
 
 export default function Projects() {
   return (
@@ -61,6 +62,18 @@ export default function Projects() {
               GitHub
             </a>
           </div>
+        </div>
+      </div>
+      <div className="row justify-content-center align-items-center mt-3">
+        <div className="text-center text-secondary">
+          <a
+            href="https://github.com/matthew-wilford"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-danger"
+          >
+            See All Projects
+          </a>
         </div>
       </div>
     </div>

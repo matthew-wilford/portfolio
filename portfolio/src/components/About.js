@@ -20,8 +20,8 @@ export default function About() {
               I am a Full Stack developer who enjoys collaborating with others
               and is passionate about advocating for diversity in tech! <br /> I
               am curiosity-driven and value tech as a tool to solve real-world
-              problems. I have a background in Computer Science and Liberal
-              Studies at Cheyney University.
+              problems. I graduated from Cheyney University with a degree in Computer Science and Liberal
+              Studies.
             </h1>
           </div>
         </div>
