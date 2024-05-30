@@ -65,7 +65,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="row justify-content-center align-items-center mt-3">
-        <div className="text-center text-secondary">
+        <div className="text-center text-secondary mb-5">
           <a
             href="https://github.com/matthew-wilford"
             target="_blank"

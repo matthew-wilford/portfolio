@@ -65,7 +65,7 @@ export default function ContactForm() {
           />
         </div>
       </div>
-      <div class="row justify-content-center mb-2">
+      <div class="row justify-content-center mb-5">
         <div class="col-10">
           <button
             type="submit"
