@@ -5,8 +5,13 @@
 
 .nav-btn {
   width: 12.5rem;
+  color: white !important;
   font-weight: bolder !important;
   border-width: 0.1rem !important;
+}
+
+.nav-btn:hover {
+  color: var(--bs-primary) !important;
 }
 
 /* Prevents navbar-toggler from having black "outline." It still appears during focus. */
