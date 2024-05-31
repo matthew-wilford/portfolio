@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../assets/styles/navbar.css";
 
 export default function Navbar() {
@@ -23,14 +23,11 @@ export default function Navbar() {
       <div
         className={`collapse navbar-collapse px-4 ${
           isNavCollapsed ? "" : "show"
-        }`}
+        } text-center`}
         id="navbarNav"
       >
         <ul className="navbar-nav mx-auto">
-          <CustomLink
-            to="/portfolio"
-            handleNavCollapse={handleNavCollapse}
-          >
+          <CustomLink to="/portfolio" handleNavCollapse={handleNavCollapse}>
             Home
           </CustomLink>
           <CustomLink
@@ -58,9 +55,18 @@ export default function Navbar() {
 }
 
 function CustomLink({ to, children, handleNavCollapse }) {
+  const location = useLocation();
+  const isActive = location.pathname === to;
+
   return (
-    <li className="nav-item">
-      <Link to={to} className="nav-link" onClick={handleNavCollapse}>
+    <li className="mx-5">
+      <Link
+        to={to}
+        className={`btn btn-outline-secondary rounded-pill nav-btn ${
+          isActive ? "active" : ""
+        }`}
+        onClick={handleNavCollapse}
+      >
         {children}
       </Link>
     </li>
