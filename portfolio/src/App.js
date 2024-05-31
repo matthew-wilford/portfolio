@@ -1,18 +1,19 @@
-import { Route, Routes } from "react-router-dom"
-import Navbar from "./components/Navbar"
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import "./assets/styles/styles.css"
-import "./assets/styles/main.scss"
+import "./assets/styles/styles.css";
+import "./assets/styles/main.scss";
 
 function App() {
 
     return (
-      <div class="background bg-primary">
+      <div className="app-container bg-primary">
         <Navbar />
-        <div>
+        <div className="content">
           <Routes>
             <Route path="/portfolio/" element={<Home />} />
             <Route path="/portfolio/about" element={<About />} />
@@ -20,8 +21,9 @@ function App() {
             <Route path="/portfolio/contact" element={<Contact />} />
           </Routes>
         </div>
+        <Footer />
       </div>
-    )
+    );
 }
 
 export default App;

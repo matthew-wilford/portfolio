@@ -5,21 +5,11 @@ import "../assets/styles/navbar.css";
 export default function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
-  const handleHomepageClick = () => {
-    setIsNavCollapsed(true);
-  };
 
   return (
-    <nav className="navbar bg-secondary shadow py-4 navbar-expand-sm">
-      <Link
-        to="/portfolio/"
-        className="navbar-brand custom-navbar-brand ps-4"
-        onClick={handleHomepageClick}
-      >
-        Matthew Wilford
-      </Link>
+    <nav className="navbar bg-danger shadow py-4 navbar-expand-sm">
       <button
-        className="navbar-toggler custom-toggler pe-4 border-0"
+        className="navbar-toggler custom-toggler pe-4 ms-auto border-0"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -36,7 +26,13 @@ export default function Navbar() {
         }`}
         id="navbarNav"
       >
-        <ul className="navbar-nav ms-auto pe-4">
+        <ul className="navbar-nav mx-auto">
+          <CustomLink
+            to="/portfolio"
+            handleNavCollapse={handleNavCollapse}
+          >
+            Home
+          </CustomLink>
           <CustomLink
             to="/portfolio/about"
             handleNavCollapse={handleNavCollapse}

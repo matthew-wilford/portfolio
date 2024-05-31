@@ -1,0 +1,4 @@
+.footer {
+  height: 6rem; /* Matches the height of the Navbar */
+  background-color: var(--bs-danger); /* Ensures the background color matches the Navbar */
+}
