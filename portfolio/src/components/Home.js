@@ -7,7 +7,7 @@ import { ReactComponent as ResumeIcon } from "../assets/icons/resume.svg";
 
 export default function Home() {
   return (
-    <div className="container bs-danger">
+    <div className="container bs-danger mt-5">
       <div className="row align-items-center">
         <div className="col-lg-6">
           <div className="text-center text-lg-start">

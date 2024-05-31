@@ -11,7 +11,7 @@ export default function Projects() {
           <h1 className="pageTitle">My Projects</h1>
         </div>
       </div>
-      <div className="row justify-content-center mt-3">
+      <div className="row justify-content-center mt-5">
         <div className="card mx-3 mb-3">
           <img src={portfolio} className="card-img-top" alt="Portfolio" />
           <div className="card-body">
