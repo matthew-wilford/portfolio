@@ -17,7 +17,9 @@
 /* Prevents navbar-toggler from having black "outline." It still appears during focus. */
 .navbar-toggler:active,
 .navbar-toggler:hover {
-  color: transparent;
+  color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Makes hamburger icon secondary color. */
