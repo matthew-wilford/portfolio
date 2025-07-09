@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
 import "../assets/styles/navbar.css";
 
 export default function Navbar() {
@@ -27,48 +26,34 @@ export default function Navbar() {
         id="navbarNav"
       >
         <ul className="navbar-nav mx-auto">
-          <CustomLink to="/portfolio" handleNavCollapse={handleNavCollapse}>
+          <NavItem href="#home" handleNavCollapse={handleNavCollapse}>
             Home
-          </CustomLink>
-          <CustomLink
-            to="/portfolio/about"
-            handleNavCollapse={handleNavCollapse}
-          >
+          </NavItem>
+          <NavItem href="#about" handleNavCollapse={handleNavCollapse}>
             About
-          </CustomLink>
-          <CustomLink
-            to="/portfolio/projects"
-            handleNavCollapse={handleNavCollapse}
-          >
+          </NavItem>
+          <NavItem href="#projects" handleNavCollapse={handleNavCollapse}>
             Projects
-          </CustomLink>
-          <CustomLink
-            to="/portfolio/contact"
-            handleNavCollapse={handleNavCollapse}
-          >
+          </NavItem>
+          <NavItem href="#contact" handleNavCollapse={handleNavCollapse}>
             Contact
-          </CustomLink>
+          </NavItem>
         </ul>
       </div>
     </nav>
   );
 }
 
-function CustomLink({ to, children, handleNavCollapse }) {
-  const location = useLocation();
-  const isActive = location.pathname === to;
-
+function NavItem({ href, children, handleNavCollapse }) {
   return (
     <li className="mx-5">
-      <Link
-        to={to}
-        className={`btn btn-outline-secondary rounded-pill nav-btn ${
-          isActive ? "active" : ""
-        }`}
+      <a
+        href={href}
+        className="btn btn-outline-secondary rounded-pill nav-btn"
         onClick={handleNavCollapse}
       >
         {children}
-      </Link>
+      </a>
     </li>
   );
 }

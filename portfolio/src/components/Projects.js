@@ -47,16 +47,18 @@ export default function Projects() {
         <div className="card mx-3 mb-3">
           <img src={placeholder} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Project Title</h5>
+            <h5 className="card-title">Coming Soon</h5>
             <p className="card-text">Undergoing maintenance.</p>
+            {/* 
             <a
-              href="#"
+              href="/projects"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-danger"
             >
               GitHub
             </a>
+            */}
           </div>
         </div>
       </div>

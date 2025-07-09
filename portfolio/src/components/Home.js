@@ -32,11 +32,11 @@ export default function Home() {
               Let's get connected!
             </h1>
             <div className="d-flex align-items-center">
-              <Link to="/portfolio/contact" className="me-4">
+              <a href="#contact" className="me-4">
                 <button className="btn btn-danger rounded-pill">
                   Contact Me
                 </button>
-              </Link>
+              </a>
               <a
                 href="https://www.linkedin.com/in/matthew-wilford-33a431202/"
                 target="_blank"
