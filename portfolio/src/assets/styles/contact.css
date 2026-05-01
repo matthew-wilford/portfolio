@@ -10,21 +10,72 @@
   overflow: auto;
 }
 
-.hShot {
-  scale: 80%;
-  border-radius: 1.5rem;
+.contact-panel {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(108, 117, 125, 0.18);
+  border-radius: 2rem;
+}
+
+.contact-pretitle {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-intro {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(33, 37, 41, 0.88);
+}
+
+.contact-image-wrapper {
+  max-width: 22rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.08);
+}
+
+.contact-image {
+  width: 100%;
+  display: block;
 }
 
 .cPageTitle {
   font-size: 3.5rem;
 }
 
-.form-control {
-  font-weight: bold;
-  overflow: auto;
+.contact-form {
+  margin-top: 1rem;
+}
+
+.contact-input {
+  background: #f8f9fa;
+  border: 1px solid rgba(108, 117, 125, 0.18);
+  border-radius: 1.25rem;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  color: #212529;
+  box-shadow: none;
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: var(--bs-secondary);
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.15);
+}
+
+.contact-btn {
+  padding: 1rem 1.75rem;
+  font-size: 1rem;
 }
 
 .msgConfirm {
   font-weight: bold;
   font-size: 2rem;
+  text-align: center;
+  color: var(--bs-secondary);
+  padding: 2rem 1rem;
 }

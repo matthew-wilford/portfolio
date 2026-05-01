@@ -6,7 +6,7 @@ export default function Navbar() {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar bg-danger shadow py-4 navbar-expand-lg">
+    <nav className="navbar bg-primary py-4 navbar-expand-lg">
       <button
         className="navbar-toggler custom-toggler pe-4 ms-auto border-0"
         type="button"

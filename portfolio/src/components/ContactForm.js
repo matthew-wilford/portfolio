@@ -7,25 +7,25 @@ export default function ContactForm() {
     return <div className="msgConfirm">Message sent!</div>;
   }
   return (
-    <form onSubmit={handleSubmit}>
-      <div class="row justify-content-center mb-2">
-        <div class="col-10">
+    <form onSubmit={handleSubmit} className="contact-form">
+      <div className="row justify-content-center mb-3">
+        <div className="col-12">
           <input
-            type="name"
+            type="text"
             name="name"
-            class="form-control bg-success"
+            className="form-control contact-input"
             placeholder="Name*"
             required
           />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
       </div>
-      <div class="row justify-content-center mb-2">
-        <div class="col-10">
+      <div className="row justify-content-center mb-3">
+        <div className="col-12">
           <input
             type="email"
             name="email"
-            class="form-control bg-success"
+            className="form-control contact-input"
             placeholder="Email*"
             required
           />
@@ -33,12 +33,12 @@ export default function ContactForm() {
         </div>
       </div>
 
-      <div class="row justify-content-center mb-2">
-        <div class="col-10">
+      <div className="row justify-content-center mb-3">
+        <div className="col-12">
           <input
-            type="subject"
+            type="text"
             name="subject"
-            class="form-control bg-success"
+            className="form-control contact-input"
             placeholder="Subject*"
             required
           />
@@ -49,13 +49,13 @@ export default function ContactForm() {
           />
         </div>
       </div>
-      <div class="row justify-content-center mb-2">
-        <div class="col-10">
+      <div className="row justify-content-center mb-4">
+        <div className="col-12">
           <textarea
-            type="message"
             name="message"
-            class="form-control bg-success"
+            className="form-control contact-input"
             placeholder="Message*"
+            rows="6"
             required
           />
           <ValidationError
@@ -65,15 +65,15 @@ export default function ContactForm() {
           />
         </div>
       </div>
-      <div class="row justify-content-center mb-5">
-        <div class="col-10">
+      <div className="row justify-content-center mb-2">
+        <div className="col-12 d-grid">
           <button
             type="submit"
             name="submit"
-            class="btn btn-danger rounded-pill"
+            className="btn btn-secondary rounded-pill contact-btn"
             disabled={state.submitting}
           >
-            Submit
+            Send Message
           </button>
         </div>
       </div>

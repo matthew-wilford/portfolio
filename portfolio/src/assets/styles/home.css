@@ -1,5 +1,5 @@
 .hImg {
-  scale: 70%;
+  scale: 100%;
   border-radius: 1rem;
 }
 
@@ -23,15 +23,15 @@
 
 .hLL {
   scale: 160%;
-  fill: var(--bs-danger);
+  fill: var(--bs-secondary);
 }
 
 .hGitHub {
   scale: 35%;
-  fill: var(--bs-danger);
+  fill: var(--bs-secondary);
 }
 
 .hResume {
   scale: 175%;
-  fill: var(--bs-danger);
+  fill: var(--bs-secondary);
 }

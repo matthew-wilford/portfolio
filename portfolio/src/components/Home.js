@@ -10,15 +10,6 @@ export default function Home() {
     <div className="container bs-danger mt-5">
       <div className="row align-items-center">
         <div className="col-lg-6">
-          <div className="text-center text-lg-start">
-            <img
-              className="img-fluid rounded-circle shadow hImg"
-              src={myImg}
-              alt="Casual headshot"
-            />
-          </div>
-        </div>
-        <div className="col-lg-6">
           <div className="text-lg-start text-dark">
             <div className="combined-text">
               <h1>Hi, I'm</h1>
@@ -33,7 +24,7 @@ export default function Home() {
             </h1>
             <div className="d-flex align-items-center">
               <a href="#contact" className="me-4">
-                <button className="btn btn-danger rounded-pill">
+                <button className="btn btn-secondary rounded-pill">
                   Contact Me
                 </button>
               </a>
@@ -59,6 +50,15 @@ export default function Home() {
                 <ResumeIcon className="hResume" alt="Resume Download Icon" />
               </a>
             </div>
+          </div>
+        </div>
+        <div className="col-lg-6">
+          <div className="text-center text-lg-start">
+            <img
+              className="img-fluid shadow hImg"
+              src={myImg}
+              alt="Casual headshot"
+            />
           </div>
         </div>
       </div>
