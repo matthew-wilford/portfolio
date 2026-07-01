@@ -5,6 +5,8 @@ import { ReactComponent as GitHub } from "../assets/icons/github.svg";
 import { ReactComponent as LinkedIn } from "../assets/icons/linkedin.svg";
 import { ReactComponent as ResumeIcon } from "../assets/icons/resume.svg";
 
+const resumeUrl = `${process.env.PUBLIC_URL}/resume.pdf?v=2026-07-01`;
+
 export default function Home() {
   return (
     <div className="container home-page mt-5">
@@ -51,11 +53,7 @@ export default function Home() {
               >
                 <GitHub className="hGitHub" alt="GitHub Icon" />
               </a>
-              <a
-                href="https://matthew-wilford.github.io/portfolio/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
                 <ResumeIcon className="hResume" alt="Resume Download Icon" />
               </a>
             </div>
