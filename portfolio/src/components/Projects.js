@@ -1,7 +1,7 @@
 import "../assets/styles/projects.css";
 import portfolio from "../assets/images/portfolio.jpg";
 import CLI from "../assets/images/CLI.png";
-import placeholder from "../assets/images/placeholder.jpg";
+import travelGuide from "../assets/images/travelGuide.png";
 
 export default function Projects() {
   return (
@@ -18,21 +18,20 @@ export default function Projects() {
         <div className="col-lg-5 mb-4 mb-lg-0">
           <div className="project-image-wrapper">
             <img
-              src={portfolio}
+              src={travelGuide}
               className="project-image"
-              alt="Portfolio project preview"
+              alt="Travel guide project preview"
             />
           </div>
         </div>
         <div className="col-lg-7 text-center text-lg-start">
-          <span className="project-label">Featured project</span>
-          <h2 className="project-title">Portfolio</h2>
+          <span className="project-label">Bootcamp project</span>
+          <h2 className="project-title">Travel Guide</h2>
           <p className="project-description">
-            A polished personal website that showcases my work, skills, and
-            contact options.
+            A web application using two APIs to provide travel information.
           </p>
           <a
-            href="https://github.com/matthew-wilford/Website-Portfolio"
+            href="https://github.com/matthew-wilford/travel-guide"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-secondary rounded-pill project-btn"
@@ -74,18 +73,27 @@ export default function Projects() {
         <div className="col-lg-5 mb-4 mb-lg-0">
           <div className="project-image-wrapper">
             <img
-              src={placeholder}
+              src={portfolio}
               className="project-image"
-              alt="Coming soon project preview"
+              alt="Portfolio project preview"
             />
           </div>
         </div>
         <div className="col-lg-7 text-center text-lg-start">
-          <span className="project-label">Coming soon</span>
-          <h2 className="project-title">Next project</h2>
+          <span className="project-label">Featured project</span>
+          <h2 className="project-title">Portfolio</h2>
           <p className="project-description">
-            A new project is in progress and will be added to this section soon.
+            A polished personal website that showcases my work, skills, and
+            contact options.
           </p>
+          <a
+            href="https://github.com/matthew-wilford/Website-Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-secondary rounded-pill project-btn"
+          >
+            View on GitHub
+          </a>
         </div>
       </div>
 
