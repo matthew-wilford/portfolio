@@ -9,6 +9,63 @@
   padding: 0;
 }
 
+.about-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+.tech-stack-section {
+  margin-top: 1.5rem;
+}
+
+.tech-stack-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.tech-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.tech-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 0.9rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.tech-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+}
+
+.tech-card span {
+  font-weight: 600;
+  color: #2f2f2f;
+}
+
 .aImg {
   border-radius: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .tech-stack-grid {
+    grid-template-columns: 1fr;
+  }
 }

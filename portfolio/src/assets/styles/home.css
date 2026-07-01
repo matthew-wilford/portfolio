@@ -1,3 +1,10 @@
+.page-shell,
+.home-page {
+  background-color: #f4efe8;
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
 .hImg {
   scale: 100%;
   border-radius: 1rem;

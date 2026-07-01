@@ -7,8 +7,17 @@ import { ReactComponent as ResumeIcon } from "../assets/icons/resume.svg";
 
 export default function Home() {
   return (
-    <div className="container bs-danger mt-5">
+    <div className="container home-page mt-5">
       <div className="row align-items-center">
+        <div className="col-lg-6">
+          <div className="text-center text-lg-start">
+            <img
+              className="img-fluid shadow hImg"
+              src={myImg}
+              alt="Casual headshot"
+            />
+          </div>
+        </div>
         <div className="col-lg-6">
           <div className="text-lg-start text-dark">
             <div className="combined-text">
@@ -50,15 +59,6 @@ export default function Home() {
                 <ResumeIcon className="hResume" alt="Resume Download Icon" />
               </a>
             </div>
-          </div>
-        </div>
-        <div className="col-lg-6">
-          <div className="text-center text-lg-start">
-            <img
-              className="img-fluid shadow hImg"
-              src={myImg}
-              alt="Casual headshot"
-            />
           </div>
         </div>
       </div>
