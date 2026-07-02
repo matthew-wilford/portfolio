@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c28998e7.css",
-    "main.js": "/portfolio/static/js/main.7b822333.js",
+    "main.css": "/portfolio/static/css/main.73b3c0e4.css",
+    "main.js": "/portfolio/static/js/main.e969212d.js",
     "static/media/myImg.jpg": "/portfolio/static/media/myImg.7e190849080138203852.jpg",
     "static/media/aboutImg.jpg": "/portfolio/static/media/aboutImg.6ec55e7c1b8e81324428.jpg",
-    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.fb94659e9e4eb94be16d.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.e9c35309bbf52a902ed5.png",
     "static/media/travelGuide.png": "/portfolio/static/media/travelGuide.1316ac2912e4010d6aad.png",
     "static/media/headshot.jpg": "/portfolio/static/media/headshot.4c3be1cf6326d9c223b2.jpg",
     "static/media/CLI.png": "/portfolio/static/media/CLI.c3a2760ac2cd86077043.png",
@@ -12,11 +12,11 @@
     "static/media/github.svg": "/portfolio/static/media/github.3d8b3a2cb00caf589c2988b151be71a7.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/resume.svg": "/portfolio/static/media/resume.dc0e8b503a6cc1dabf7a9406d0889186.svg",
-    "main.c28998e7.css.map": "/portfolio/static/css/main.c28998e7.css.map",
-    "main.7b822333.js.map": "/portfolio/static/js/main.7b822333.js.map"
+    "main.73b3c0e4.css.map": "/portfolio/static/css/main.73b3c0e4.css.map",
+    "main.e969212d.js.map": "/portfolio/static/js/main.e969212d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c28998e7.css",
-    "static/js/main.7b822333.js"
+    "static/css/main.73b3c0e4.css",
+    "static/js/main.e969212d.js"
   ]
 }
