@@ -1,5 +1,5 @@
 import "../assets/styles/projects.css";
-import portfolio from "../assets/images/portfolio.jpg";
+import portfolio from "../assets/images/portfolio.png";
 import CLI from "../assets/images/CLI.png";
 import travelGuide from "../assets/images/travelGuide.png";
 

@@ -35,7 +35,7 @@ export default function Home() {
             </h1>
             <div className="d-flex align-items-center">
               <a href="#contact" className="me-4">
-                <button className="btn btn-secondary rounded-pill">
+                <button className="contact-btn btn btn-secondary rounded-pill">
                   Contact Me
                 </button>
               </a>

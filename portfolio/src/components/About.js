@@ -38,10 +38,11 @@ export default function About() {
               <h1>!</h1>
             </div>
             <p className="text-dark pt-3 about-description">
-              I am a Full Stack developer who enjoys collaborating with others
-              and is passionate about advocating for diversity in tech! I am
-              curiosity-driven and value tech as a tool to solve real-world
-              problems. I am a Chatbot/Voicebot developer at Eli Lilly.
+              I’m a full‑stack developer who enjoys collaborating with others
+              and is passionate about advocating for diversity in tech. Curiosity
+              drives my work, and I see technology as a powerful tool for solving
+              real‑world problems. Currently, I build Chatbot and Voicebot solutions
+              at Eli Lilly.
             </p>
 
             <div className="tech-stack-section mt-4">

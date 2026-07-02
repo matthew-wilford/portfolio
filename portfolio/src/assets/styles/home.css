@@ -28,9 +28,19 @@
   }
 }
 
+.contact-btn:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
 .hLL {
   scale: 160%;
   fill: var(--bs-secondary);
+}
+
+.hLL:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
 .hGitHub {
@@ -38,7 +48,17 @@
   fill: var(--bs-secondary);
 }
 
+.hGitHub:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
 .hResume {
   scale: 175%;
   fill: var(--bs-secondary);
+}
+
+.hResume:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
