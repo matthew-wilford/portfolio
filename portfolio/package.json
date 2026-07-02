@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cpy \"public/404.html\" build/",
+    "build": "react-scripts build  && cp public/404.html build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -44,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "cpy-cli": "^4.2.0",
     "gh-pages": "^6.3.0"
   }
 }
