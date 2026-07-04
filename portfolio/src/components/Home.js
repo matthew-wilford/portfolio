@@ -30,7 +30,7 @@ export default function Home() {
               <span class="wave">👋🏾</span>
             </div>
             <h1 className="text-dark">
-              I am a Full Stack developer. <br />
+              I am a full-stack developer. <br />
               Let's get connected!
             </h1>
             <div className="d-flex align-items-center">

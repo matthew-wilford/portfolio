@@ -30,7 +30,7 @@
 
 .contact-btn:hover {
   transform: translateY(-0.125rem);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.08);
 }
 
 .hLL {
@@ -40,7 +40,7 @@
 
 .hLL:hover {
   transform: translateY(-0.125rem);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.08);
 }
 
 .hGitHub {
@@ -50,7 +50,7 @@
 
 .hGitHub:hover {
   transform: translateY(-0.5rem);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.08);
 }
 
 .hResume {
@@ -60,5 +60,5 @@
 
 .hResume:hover {
   transform: translateY(-0.125rem);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.08);
 }

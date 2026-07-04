@@ -19,7 +19,7 @@
 
 .reveal-section {
   opacity: 0;
-  transform: translateY(35px);
+  transform: translateY(2.1875rem);
   transition: opacity 0.75s ease, transform 0.75s ease;
   will-change: opacity, transform;
 }

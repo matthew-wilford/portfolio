@@ -32,10 +32,8 @@ export default function About() {
               About Me
             </h1>
             <div className="combined-text">
-              <h1 className="text-dark">My name is</h1>
-              <h1> </h1>
-              <h1 className="text-secondary">Matthew Wilford</h1>
-              <h1>!</h1>
+              <h1 className="text-dark">My name is </h1>
+              <h1 className="text-secondary name">Matthew Wilford!</h1>
             </div>
             <p className="text-dark pt-3 about-description">
               I’m a full‑stack developer who enjoys collaborating with others
