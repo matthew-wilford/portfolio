@@ -5,8 +5,8 @@ import travelGuide from "../assets/images/travelGuide.png";
 
 export default function Projects() {
   return (
-    <div className="container mt-5">
-      <div className="section-shell p-4 p-lg-5 rounded-4 shadow-sm">
+    <div className="container page-shell mt-5">
+      <div>
         <div className="row justify-content-center align-items-center">
           <div className="col-12 text-center">
             <h1 className="text-secondary display-1 pageTitle pb-3">

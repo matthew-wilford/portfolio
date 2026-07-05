@@ -4,8 +4,8 @@ import ContactForm from "./ContactForm.js";
 
 export default function Contact() {
   return (
-    <div className="container mt-5">
-      <div className="section-shell p-4 p-lg-5 rounded-4 shadow-sm">
+    <div className="container page-shell mt-5">
+      <div>
         <div className="row justify-content-center">
           <div className="col-12 col-xl-10">
             <div className="contact-panel p-4 p-lg-5 rounded-4 shadow-sm">

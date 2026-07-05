@@ -5,11 +5,13 @@
 }
 
 .project-panel {
-  background: #fff;
+  background: #ffffff;
   border: 0.0625rem solid rgba(108, 117, 125, 0.18);
   border-radius: 2rem;
   padding: 2rem;
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.08);
+  max-width: 68.75rem;
+  margin: 1.5rem auto;
 }
 
 .project-panel + .project-panel {
@@ -62,7 +64,7 @@
 
 @media (max-width: 61.9375rem) {
   .project-panel {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   .project-panel.flex-lg-row-reverse {
