@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import "../assets/styles/home.css";
 import myImg from "../assets/images/myImg.jpg";
-import { ReactComponent as GitHub } from "../assets/icons/github.svg";
-import { ReactComponent as LinkedIn } from "../assets/icons/linkedin.svg";
-import { ReactComponent as ResumeIcon } from "../assets/icons/resume.svg";
+import GitHub from "../assets/icons/github.svg?react";
+import LinkedIn from "../assets/icons/linkedin.svg?react";
+import ResumeIcon from "../assets/icons/resume.svg?react";
 
-const resumeUrl = `${process.env.PUBLIC_URL}/resume.pdf?v=2026-07-01`;
+const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf?v=2026-07-01`;
 
 export default function Home() {
   return (

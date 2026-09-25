@@ -1,6 +1,6 @@
 import "../assets/styles/contact.css";
 import hShot from "../assets/images/headshot.jpg";
-import ContactForm from "./ContactForm.js";
+import ContactForm from "./ContactForm.jsx";
 
 export default function Contact() {
   return (
