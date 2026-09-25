@@ -15,11 +15,13 @@ export default function Contact() {
                     <span className="contact-pretitle text-secondary">
                       Say hello
                     </span>
-                    <h1 className="cPageTitle display-1 pb-3">Let’s connect!</h1>
+                    <h1 className="cPageTitle display-1 pb-3">
+                      Let’s connect!
+                    </h1>
                     <p className="contact-intro text-dark">
                       Interested in working together or want to chat about your
-                      next project? Send a message below and I’ll get back to you
-                      soon.
+                      next project? Send a message below and I’ll get back to
+                      you soon.
                     </p>
                   </div>
                 </div>
