@@ -6,10 +6,9 @@ import {
   FaJs,
   FaNodeJs,
   FaReact,
-  FaBootstrap,
-  FaSass,
 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import GenesysMark from "../assets/icons/genesys.svg?react";
 
 const techStack = [
   { name: "HTML", icon: <FaHtml5 />, color: "#e34f26" },
@@ -17,9 +16,9 @@ const techStack = [
   { name: "JavaScript", icon: <FaJs />, color: "#f7df1e" },
   { name: "Node.js", icon: <FaNodeJs />, color: "#5fa04e" },
   { name: "React", icon: <FaReact />, color: "#61dafb" },
-  { name: "Bootstrap", icon: <FaBootstrap />, color: "#7952b3" },
-  { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "#06b6d4" },
-  { name: "SASS", icon: <FaSass />, color: "#cc6699" },
+  { name: "MongoDB", icon: <SiMongodb />, color: "#47a248" },
+  { name: "Express.js", icon: <SiExpress />, color: "#303030" },
+  { name: "Genesys Cloud", icon: <GenesysMark />, color: "#ff451a" },
 ];
 
 export default function About() {

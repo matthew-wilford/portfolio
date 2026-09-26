@@ -66,6 +66,11 @@
   font-size: 1.35rem;
 }
 
+.tech-icon svg {
+  max-width: 1.35rem;
+  max-height: 1.35rem;
+}
+
 .tech-card span {
   font-weight: 600;
   color: #2f2f2f;
