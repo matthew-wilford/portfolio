@@ -1,5 +1,5 @@
 import "../assets/styles/projects.css";
-import portfolio from "../assets/images/portfolio.png";
+import devlink from "../assets/images/devlink.png";
 import CLI from "../assets/images/CLI.png";
 import travelGuide from "../assets/images/travelGuide.png";
 
@@ -79,21 +79,21 @@ export default function Projects() {
             <div className="col-lg-5 mb-4 mb-lg-0">
               <div className="project-image-wrapper">
                 <img
-                  src={portfolio}
+                  src={devlink}
                   className="project-image"
-                  alt="Portfolio project preview"
+                  alt="Insomnia response preview for the DevLink API"
                 />
               </div>
             </div>
             <div className="col-lg-7 text-center text-lg-start">
               <span className="project-label">Featured project</span>
-              <h2 className="project-title">Portfolio</h2>
+              <h2 className="project-title">DevLink API</h2>
               <p className="project-description">
-                A polished personal website that showcases my work, skills, and
-                contact options.
+                A REST API for developer profiles, posts, skills, and
+                connections.
               </p>
               <a
-                href="https://github.com/matthew-wilford/Website-Portfolio"
+                href="https://github.com/matthew-wilford/devlink-api"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-secondary rounded-pill project-btn"
