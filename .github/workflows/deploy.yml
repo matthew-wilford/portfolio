@@ -26,13 +26,14 @@ jobs:
         run: npm ci
         working-directory: portfolio
 
-      - name: Configure Git author
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-      - name: Build and publish to GitHub Pages
-        run: npm run deploy
+      # This runs 'vite build' and outputs your static site to 'portfolio/dist'
+      - name: Build Project
+        run: npm run build 
         working-directory: portfolio
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # This automatically deploys the correct Vite output folder to your gh-pages branch
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: portfolio/dist
+          branch: gh-pages
